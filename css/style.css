@@ -1,0 +1,23 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    background-color: brown;
+    margin: 10px;
+  }
+  .contenedor > div {
+    background-color: rgb(158, 159, 146);
+    color: beige;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid rgb(150, 80, 80);
+  }
+  .item1{
+    grid-column: 2 span;
+  }
